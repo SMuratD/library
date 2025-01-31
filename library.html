@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./library.css">
+    <link rel="icon" type="image/x-icon" href="library/images/icons/online-library.png">
+    <title>Library</title>
+    <script src="Tugis API-дің JavaScript файлының URL мекенжайы"></script>
+    <script>
+        function initMap() {
+            var mapOptions = {
+                center: { lat: 42.3417, lng: 69.5901 }, // Түркістан облысының координаталары
+                zoom: 8
+            };
+            var map = new Tugis.Map(document.getElementById('map'), mapOptions);
+        }
+    </script>
+</head>
+<body>
+    <header class="header fixed">
+        <div>
+
+        </div>
+        <div class="container">
+            <div>
+                <img src="library/images/icons/online-library.png" alt="" class="logo">
+            </div>
+            
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a class="active" href="library.html">БАСТЫ БЕТ</a></li>
+                    <li><a href="history.html">БІЗ ТУРАЛЫ</a></li>
+                    <li><a href="book.html">КІТАП</a></li>
+                    <li><a href="audiokitap.html">АУДИОКІТАП</a></li>
+                    <li><a href="achievements.html">ІС-ШАРАЛАР</a></li>
+                </ul>
+            </nav>
+
+
+            <a href="" class="btn">Кіру</a>
+        </div>
+    </header>
+    <div class="smalldiv">
+
+    </div>
+    <main class="main">
+        <section class="slider">
+            <div class="slides">
+                <div class="slide"><img src="library/images/lib1.jpeg" alt="Slide 1"></div>
+                <div class="slide"><img src="library/images/lib2.jpeg" alt="Slide 2"></div>
+                <div class="slide"><img src="library/images/lib3.webp" alt="Slide 3"></div>
+            </div>
+        </section>
+        <section class="section_basty_bet">            
+            <div class="basty_bet1">                
+                <h1>Сәкен Сейфуллин атындағы Алматы облыстық әмбебап кітапханасы.</h1>     
+                <div class="basty_bet1_1">
+                    <input type="text" placeholder="Кітаптың немесе автордың атын енгізіңіз…" class="search-input" autocomplete="off">
+                    <button class="search-button" type="submit">Іздеу</button>   
+                </div>               
+                 
+            </div>
+            <div class="basty_bet2">
+                <img src="main1.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="food__list">
+            <div class="h11">
+                <h1>ІС-ШАРАЛАР ТІЗБЕГІ</h1>
+            </div>
+            <div class="container">
+                <div class="food-list__card">
+                <img src="library/images/is-shara1.jpg" alt="" class="food-list__img">
+                <h4 class="food-list__title">Chicken Paelta</h4>
+                <p class="food-list__desc">
+                    We just don't make and sell food.Good food warms.
+                </p>
+                </div>
+            <div class="food-list__card">
+                <img src="library/images/is-shara5.jpg" alt="" class="food-list__img">
+                <h4 class="food-list__title">Chicken Paella</h4>
+                <p class="food-list__desc">
+                    Taco Del Mar brings the best out of Mexican cuisine with fresh.
+                </p>
+                </div>
+            <div class="food-list__card">
+                <img src="library/images/is-shara3.jpg" alt="" class="food-list__img">
+                <h4 class="food-list__title">Taco Del Mar</h4>
+                <p class="food-list__desc">
+                    Bon Au Pain is a pioneer in the healthy fast food scene.
+                </p>
+                </div>
+            <div class="food-list__card">
+                <img src="library/images/is-shara4.jpg" alt="" class="food-list__img">
+                <h4 class="food-list__title">Pizza Hut.</h4>
+                <p class="food-list__desc">
+                    Although the Pizza Hut Menu Prices have tumbled over the years.
+                </p>
+                </div>
+            </div>            
+        </section>
+
+        <section class="product">
+            <div class="h11">
+                <h1>ЖАҢАЛЫҚТАР</h1>
+            </div>
+            <div class="container">
+                <div class="product__card card_queen">
+                    <h4 class="product__title">Dairy Queen</h4>
+                    <p class="product__desc">Dairy Queen is one of the biggest fast-food.</p>
+                    <span class="product__price">$4</span>
+                    <span class="product__price--old">$6</span>
+                    <a href="" class="btn btn--small">Order now</a>
+                </div>
+                <div class="product__card card_hut">
+                    <h4 class="product__title">Burger King</h4>
+                    <p class="product__desc">Together with McDonald’s, Burger King.</p>
+                    <span class="product__price">$5</span>
+                    <span class="product__price--old">$6</span>
+                    <a href="" class="btn btn--small">Order now</a>
+                </div>
+                <div class="product__card card_king">
+                    <h4 class="product__title">Pizza Hut</h4>
+                    <p class="product__desc">Although the Pizza Hut Menu Prices.</p>
+                    <span class="product__price">$3</span>
+                    <span class="product__price--old">$7</span>
+                    <a href="" class="btn btn--small">Order now</a>
+                </div>
+                <div class="product__card card_papa">
+                    <h4 class="product__title">Papa Johns</h4>
+                    <p class="product__desc">Papa Johns is one of the most popular fast-food.</p>
+                    <span class="product__price">$6</span>
+                    <span class="product__price--old">$8</span>
+                    <a href="" class="btn btn--small">Order now</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+77054741112" target="_blank">
+            <img src="library/images/icons/socials/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__contacts"> 
+                <img src="library/images/icons/online-library.png" alt="" class="footer__logo">               
+                <a href="mailto:fastfood_usa@gmail.com" class="footer__link footer__link-mail">ОБЛ.поштасы</a>
+                <a href="#!" class="footer__link footer__link-web">сайт</a>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list-title footer__menu">
+                        <a class="footer__title" href="#!">Біз туралы</a>
+                        <ul class="footer__inner-list">
+                            <li class="footer__list-item">
+                                <a href="history.html">Тарихы</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!">Жобалар</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!">Қызметкерлер</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__list-title footer__info">
+                        <a class="footer__title" href="#!">Оқырмандарға</a>
+                        <ul class="footer__inner-list">
+                            <li class="footer__list-item">
+                                <a href="#!">Электронды каталог</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!">Виртуалды тур</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!">Кітапқа тапсырыс беру</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__list-title footer__links">
+                        <a class="footer__title" href="#!">Пайдалы</a>
+                        <ul class="footer__inner-list">
+                            <li class="footer__list-item">
+                                <a href="#!">Подкаст</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!">Аудио кітап</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#!">Іс-шаралар</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__socials">
+                <div class="footer__social">
+                    <p class="footer__title">Әлеуметтік желілер</p>
+                    <div class="footer__socials-icons">
+                        <a class="footer__socials-link" href="#!"><img src="library/images/icons/socials/instagram.png" alt=""></a>
+                        <a class="footer__socials-link" href="#!"><img src="library/images/icons/socials/facebook.png" alt=""></a>
+                        <a class="footer__socials-link" href="#!"><img src="library/images/icons/socials/telegram.png" alt=""></a>
+                        <a class="footer__socials-link" href="#!"><img src="library/images/icons/socials/youtube.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
